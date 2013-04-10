@@ -3,6 +3,8 @@ var url = require("url");
 
 var port = process.env.PORT || 1337;
 
+console.log("this is a test");
+
 function start() {
   function onRequest(request, response) {
 	var pathname = url.parse(request.url).pathname;
